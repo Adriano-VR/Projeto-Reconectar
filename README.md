@@ -21,7 +21,7 @@ Este projeto é uma aplicação web para registrar e buscar informações sobre 
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/projeto-pessoas-desaparecidas.git
+    git clone https://github.com/seu-usuario/Projeto-Reconectar.git
     ```
 3. Instale as dependências do projeto:
     ```sh
@@ -32,3 +32,11 @@ Este projeto é uma aplicação web para registrar e buscar informações sobre 
     npm start
     ```
 5. Abra o arquivo `index.html` no seu navegador preferido.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou entrar em contato.

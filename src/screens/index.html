@@ -20,96 +20,24 @@
     />
 
     <style>
-      body {
-      
-        color: #48545a;
-        margin: 0;
-        padding: 0;
-      }
+      @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+        .titulo{
+          font-family: "Playwrite AU QLD", cursive;
+          width: 650px; 
+          height: 100px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          position: relative;
+        }
 
-      .chart-container {
-        width: 800px;
-        height: 400px;
-        margin: auto;
-      }
-     
-      main {
-        padding: 2rem 1rem;
-      }
-
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        color: #1f2937;
-        text-align: center;
-      }
-
-      footer {
-        color: #ffffff;
-        padding: 1rem;
-        text-align: center;
-      }
-
-      footer p {
-        margin: 0;
-      }
-
-      footer a {
-        color: #ffffff;
-        text-decoration: none;
-        font-weight: bold;
-        transition: color 0.3s ease;
-      }
-
-      footer a:hover {
-        color: #7f9cf5;
-      }
-
-      p {
-        line-height: 1.4;
-        font-size: 1.1rem;
-        font-weight: 500;
-      }
-
-      section img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      .bg-gray-200 {
-        background-color: #e5e7eb;
-      }
-
-      .bg-gray-200 p {
-        color: #2d3748;
-      }
-
-      .bg-gray-200 img {
-        border-radius: 0.5rem;
-      }
-
-      .success-box {
-        transition: background-color 0.3s ease;
-      }
-
-      .success-box:hover {
-        background-color: #d6d6d6;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
-      }
-
-      #header{
-        font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-      }
+       
     </style>
+
   </head>
 <body class="bg-transparent" style="font-family: REM;">
-    <header id="header" class="bg-black/90 flex justify-between items-center fixed top-0 left-0 w-full px-5 py-5 shadow-lg h-20 z-50">
+    <header id="header" class="bg-black/90 flex justify-between items-center px-3 sticky top-0 left-0 w-full shadow-lg h-[10vh] z-50">
        <a href="#" >
       <img class="h-10" src="img/newLogo.png" alt="logo">
     </a>
@@ -118,75 +46,59 @@
         </nav>
     </header>
 
-    <main class="mt-24 container mx-auto">
+    <main class="flex justify-center items-center flex-col p-0">
 
-    <!-- banner com imagem, retirei o texto pois não tem como ler de uma forma fácil, adicionei a imagem people nem img/pessoas/people.png para o banner -->
 
-      <section class="relative bg-cover bg-center bg-no-repeat h-[600px] sm:h-[600px]" style="background-image: url('img/pessoas/people.png'); background-position: 50% 50%; width: 100%; border-radius: 20px;">
-        <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25" style="border-radius: 20px;"></div>
-        
-        <div class="relative mx-auto max-w-screen-lg px-4 py-20 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-            <div class="max-w-md mx-auto text-center sm:text-left mb-auto">
-                <h1 class="text-4xl font-bold sm:text-4xl text-white">
-                    
-                    <strong class="block font-bold text-black"> </strong>
-                </h1>
+      <section class="flex h-[90vh] w-full justify-center items-center ">
+          <div class="bg-[url('/src/assets/img/pexels-andres-ayrton-6551298.jpg')] w-full h-full absolute top-0 left-0 bg-cover  brightness-50 "></div>
+          <h1 id="titulo" class="titulo text-5xl font-semibold cursor-pointer  text-zinc-50 brightness-100   " >Reconectando Vidas</h1>
+      </section>
+    
+      <article class="max-w-[90vw] text-justify">
+          <section class="px-5 mb-8 mt-10" >
+            <h1 class="text-4xl font-bold mb-10">Reconectando Vidas</h1>
+            <p class="text-lg leading-relaxed mb-8">
+              Na Reconectando Vidas, nosso compromisso é ajudar a encontrar pessoas
+              desaparecidas e reunir famílias novamente. Nosso trabalho é de
+              importância vital, pois cada pessoa desaparecida representa uma
+              história, uma família angustiada e uma comunidade preocupada.
+            </p>
+            <p class="text-lg leading-relaxed mb-6">
+              A importância do nosso trabalho é imensa, pois não apenas oferecemos
+              esperança às famílias, mas também ajudamos a trazer à tona a
+              conscientização sobre a questão dos desaparecimentos e as medidas
+              preventivas que podem ser tomadas.
+            </p>
+            <p class="text-lg leading-relaxed mb-6">
+              É fundamental destacar que cada caso de desaparecimento é único e
+              merece atenção individualizada. Nossa organização se esforça para
+              oferecer suporte emocional, recursos e assistência prática para
+              aqueles que estão passando por essa situação difícil.
+            </p>
+          </section>
     
 
-    
-                <div class="mt-6 flex flex-wrap gap-4 justify-center">
-                   
-                </div>
+          <section class="px-4 mb-8">
+            <div class="mt-8">
+              <h2 class="text-3xl font-bold mb-6">Dados Relevantes</h2>
+              <ul class="list-disc pl-8">
+                <li class="text-lg font-medium leading-relaxed mb-4">
+                  Desde o início de nossas operações, ajudamos a reunir mais de 500
+                  famílias.
+                </li>
+                <li class="text-lg font-medium leading-relaxed mb-4">
+                  Nossa equipe é composta por profissionais altamente qualificados
+                  em áreas como psicologia, assistência social e investigação.
+                </li>
+                <li class="text-lg font-medium leading-relaxed">
+                  Estamos ativos em comunidades de todo o país, trabalhando em
+                  parceria com organizações locais para aumentar nosso alcance e
+                  eficácia.
+                </li>
+              </ul>
             </div>
-        </div>
-    </section>
-    
-    
-    
-    
-      <section class="px-5 mb-8 mt-10" >
-        <h1 class="text-4xl font-bold mb-10">Reconectando Vidas</h1>
-        <p class="text-lg leading-relaxed mb-8">
-          Na Reconectando Vidas, nosso compromisso é ajudar a encontrar pessoas
-          desaparecidas e reunir famílias novamente. Nosso trabalho é de
-          importância vital, pois cada pessoa desaparecida representa uma
-          história, uma família angustiada e uma comunidade preocupada.
-        </p>
-        <p class="text-lg leading-relaxed mb-6">
-          A importância do nosso trabalho é imensa, pois não apenas oferecemos
-          esperança às famílias, mas também ajudamos a trazer à tona a
-          conscientização sobre a questão dos desaparecimentos e as medidas
-          preventivas que podem ser tomadas.
-        </p>
-        <p class="text-lg leading-relaxed mb-6">
-          É fundamental destacar que cada caso de desaparecimento é único e
-          merece atenção individualizada. Nossa organização se esforça para
-          oferecer suporte emocional, recursos e assistência prática para
-          aqueles que estão passando por essa situação difícil.
-        </p>
-      </section>
-
-      <section class="px-4 mb-8">
-        <div class="mt-8">
-          <h2 class="text-3xl font-bold mb-6">Dados Relevantes</h2>
-          <ul class="list-disc pl-8">
-            <li class="text-lg font-medium leading-relaxed mb-4">
-              Desde o início de nossas operações, ajudamos a reunir mais de 500
-              famílias.
-            </li>
-            <li class="text-lg font-medium leading-relaxed mb-4">
-              Nossa equipe é composta por profissionais altamente qualificados
-              em áreas como psicologia, assistência social e investigação.
-            </li>
-            <li class="text-lg font-medium leading-relaxed">
-              Estamos ativos em comunidades de todo o país, trabalhando em
-              parceria com organizações locais para aumentar nosso alcance e
-              eficácia.
-            </li>
-          </ul>
-        </div>
-      </section>
-
+          </section>
+   
       <section>
         <h2>Estatísticas de Desaparecidos no Brasil</h2>
         <div class="chart-container">
@@ -222,76 +134,9 @@
         </div>
       </section>
 
-      <section class="px-4 mb-8">
-        <div class="mt-8">
-          <h2 class="text-3xl font-bold mb-6">Histórias de Sucesso</h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div
-              class="bg-gray-200 rounded-lg overflow-hidden shadow-md success-box"
-            >
-              <img
-                src="./img/pessoas/Relato.png"
-                alt="História 1"
-                class="w-full h-auto"
-              />
-              <div class="p-4">
-                <p class="text-lg font-semibold mb-5">Bruna Chandelier</p>
-                <p class="text-base font-medium">
-                  "Minha experiência com a Reconectando Vidas foi incrível. Eles
-                  me ajudaram a encontrar minha família depois de anos de
-                  separação. Sou eternamente grato!"
-                </p>
-                <p class="text-sm text-gray-600 mt-10">
-                  Data: 15 de março de 2024
-                </p>
-              </div>
-            </div>
 
-            <div
-              class="bg-gray-200 rounded-lg overflow-hidden shadow-md success-box"
-            >
-              <img
-                src="./img/pessoas/Relato2.png"
-                alt="História 2"
-                class="w-full h-auto"
-              />
-              <div class="p-4">
-                <p class="text-lg font-semibold mb-5">Gustavo Andrade</p>
-                <p class="text-base font-medium">
-                  "Nunca perdi a esperança graças ao apoio contínuo da
-                  Reconectando Vidas. Finalmente, estou de volta à minha família
-                  e não poderia estar mais feliz."
-                </p>
-                <p class="text-sm text-gray-600 mt-11">
-                  Data: 20 de abril de 2024
-                </p>
-              </div>
-            </div>
 
-            <div
-              class="bg-gray-200 rounded-lg overflow-hidden shadow-md success-box"
-            >
-              <img
-                src="./img/pessoas/Relato3.png"
-                alt="História 3"
-                class="w-full h-auto"
-              />
-              <div class="p-4">
-                <p class="text-lg font-semibold mb-5">Gabriel Caputto</p>
-                <p class="text-base font-medium">
-                  "É incrível o que a Reconectando Vidas faz. Eles não apenas me
-                  ajudaram a voltar para casa, mas também me proporcionaram
-                  apoio emocional durante todo o processo. Estou eternamente
-                  agradecido por sua dedicação e compaixão."
-                </p>
-                <p class="text-sm text-gray-600 mt-5">
-                  Data: 5 de maio de 2024
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
 
       <div id="overlay" class="hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-95 z-999"></div>
       <div id="modal" class="hidden  fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 overflow-y-auto bg-cover text-white z-1000 rounded-lg"></div>
@@ -333,108 +178,13 @@
         </div>
       </section>
 
-      <!-- FAQ para ajudar a pessoa cadastrar um usuário -->
+    </article>
 
-      <div class="space-y-4">
-        <details class="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden" open>
-          <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-            <h2 class="font-medium">Quer saber como cadastrar um desaparecido?</h2>
-      
-            <span class="relative size-5 shrink-0">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="absolute inset-0 size-5 opacity-100 group-open:opacity-0"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-      
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="absolute inset-0 size-5 opacity-0 group-open:opacity-100"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </span>
-          </summary>
-      
-          <p class="mt-4  text-base font-semibold leading-relaxed text-gray-700">
-            Você pode enviar os dados para o nosso e-mail em contato@reconectandovidas.org e ajudar com as informações ncessárias para isso
-          </p>
-        </details>
-      
-        <details class="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
-          <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-            <h2 class="font-medium">Qual é o nosso objetivo?</h2>
-      
-            <span class="relative size-5 shrink-0">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="absolute inset-0 opacity-100 group-open:opacity-0"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-      
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="absolute inset-0 opacity-0 group-open:opacity-100"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </span>
-          </summary>
-      
-          <p class="mt-4 leading-relaxed  text-base font-semibold text-gray-700">
-            Nosso objetivo em reconectando vidas é ajudar e saber que as pessoas que estão longe de casa possam voltar e confortar as familias, com informações e ajuda com suporte emocional que transforme isso o mais rápido possivel
-          </p>
-        </details>
-      </div>
-
-
-
+    
     </main>
     
 
-    <!-- <footer class="bg-black text-white py-2">
-      <div class="container mx-auto flex justify-between items-center">
-        <p>&copy; 2024 Reconectando Vidas. Todos os direitos reservados.</p>
-        <p>Entre em contato pelo WhatsApp</p>
-        <img src="./img/whatsapp.png" alt="WhatsApp" />
-      </div>
-    </footer> -->
-
-    <footer class="bg-white dark:bg-black/90">
+    <footer class="bg-white dark:bg-black/90 border-t border-black" >
       <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div class="lg:grid lg:grid-cols-2">
           <div
@@ -659,6 +409,21 @@
 
     <script>
       document.onload = carregarMenu();
+
+      document.getElementById("titulo").addEventListener("mouseover", function() {
+  
+      this.style.transition = 'all 2s ease-in-out'
+      this.style.backgroundImage = 'url("../assets/img/heart.png")';
+      this.style.backgroundSize = '10%';
+      this.style.backgroundPosition = 'right';
+      this.style.backgroundRepeat = 'no-repeat';
+  });
+
+
+
+
+
+
     </script>
 
 <script>
