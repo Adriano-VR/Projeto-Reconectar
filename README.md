@@ -29,6 +29,6 @@ Este projeto é uma aplicação web para registrar e buscar informações sobre 
     ```
 4. Inicie o servidor da API:
     ```sh
-  npm start
+    npm start
     ```
 5. Abra o arquivo `index.html` no seu navegador preferido.
