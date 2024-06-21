@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <title>Reconectando Vidas</title>
+</head>
+<style>
+    
+    body{
+  
+    font-family: "REM", sans-serif;
+    font-weight: 500;
+  }
+  
+  
+    
+   
+    
+    </style>
+<body class="antialiased bg-transparent">
+    <header id="header" class="bg-black/90 flex justify-between items-center fixed top-0 left-0 w-full px-5 py-5 shadow-lg h-20">
+        <a href="./index.html" >
+            <img class="h-10" src="img/newLogo.png" alt="logo">
+          </a>
+        <nav id="navMenu">
+
+        </nav>
+    </header>
+
+    <main class="mt-32 container mx-auto pb-5">
+            <div class="w-full flex items-end justify-end my-5">
+                <div class=" bg-[#191919] inline-flex p-3 rounded"> 
+                    <button class="tracking-wider text-zinc-50 font-medium capitalize" id="btnCriar">criar nova publicação</button>
+                </div>
+            </div>
+       
+            <div id="modal" class="hidden fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 overflow-y-auto bg-cover text-white z-1000 overflow-auto  "></div>
+            <div id="overlay" class="hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-95 z-999"></div>
+      
+        
+        <section id="forum" class="flex flex-col" >
+           
+        </section>
+    </main>
+
+    <script src="../clients/authClient.js"></script>
+    <script src="../clients/mensagensClient.js"></script>
+    <script src="../operacoes/opMensagens.js"></script>
+    <script src="../clients/desaparecidosClient.js"></script>
+    <script src="../operacoes/opResposta.js"></script>
+    <script src="../operacoes/opReposta_Reposta.js"></script>
+    
+       
+</body>
+</html>

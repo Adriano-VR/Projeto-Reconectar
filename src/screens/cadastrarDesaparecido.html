@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <title>Cadastrar Pessoa Desaparecida</title>
+</head>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+ inicio()
+});
+</script>
+
+<style>
+    
+*{
+    font-family: "REM", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  }
+
+ 
+
+</style>
+
+<body class="antialiased bg-transparent">
+    <header id="header" class="bg-black/90 flex justify-between items-center fixed top-0 left-0 w-full px-5 py-5 shadow-lg h-20 z-50">
+        <img class="h-10" src="img/newLogo.png" alt="logo">
+        <nav id="navMenu">
+            
+        </nav>
+
+        
+    </header>
+
+    <main id="main2" class="h-screen flex justify-center items-center">
+      
+    </main>
+    
+    <script src="../clients/authClient.js"></script>
+    <script src="../clients/desaparecidosClient.js"></script>
+
+    <script>
+        document.onload = verificarPermissao()
+        document.onload = carregarMenu()
+    </script>
+
+   
+</body>
+</html>
