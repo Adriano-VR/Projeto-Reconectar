@@ -16,3 +16,19 @@ Este projeto é uma aplicação web para registrar e buscar informações sobre 
 - **Busca de Pessoas Desaparecidas**: Permite buscar e visualizar informações de pessoas desaparecidas.
 - **Atualização de Informações**: Permite atualizar os dados de uma pessoa desaparecida.
 - **Remoção de Registro**: Permite remover o registro de uma pessoa desaparecida do sistema.
+
+### Passos para Instalação
+
+1. Clone o repositório:
+    ```sh
+    git clone https://github.com/seu-usuario/projeto-pessoas-desaparecidas.git
+    ```
+3. Instale as dependências do projeto:
+    ```sh
+    npm install
+    ```
+4. Inicie o servidor da API:
+    ```sh
+  npm start
+    ```
+5. Abra o arquivo `index.html` no seu navegador preferido.
